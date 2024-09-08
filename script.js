@@ -33,7 +33,7 @@ function showResult(result){
         console.log("Word not found.", result);
         document.getElementById("message").textContent = "Søgning ikke fundet...";
     } else {
-        console.log("Workd found!:", result);
+        console.log("Word found!:", result);
         document.getElementById("message").textContent = "Søgning fundet!";
         document.getElementById("tot-time-span").textContent = totalTime;
         document.getElementById("inflected").textContent = result.inflected;
