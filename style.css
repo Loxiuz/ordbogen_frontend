@@ -1,0 +1,18 @@
+.hidden{
+    visibility: hidden;
+}
+
+#inflected,
+#headword {
+    margin-left: 3em;
+}
+
+#show-result span {
+    font-weight: bold;
+    font-style: normal;
+}
+
+#show-result p {
+    font-style: oblique;
+}
+

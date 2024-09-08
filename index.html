@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ordbogen</title>
+</head>
+<body>
+    <h1>Ordbogen</h1> 
+    
+    <form id="search-form">
+        <input type="text" id="search" name="search">
+        <button id="search-btn" name="searchBtn">Søg</button>
+    </form>
+
+    <p>
+        Request Amount: 
+        <span id="req-amount-span"></span> 
+        - 
+        Total time: 
+        <span id="tot-time-span"></span>
+    </p>
+
+    <h2 id="message"></h2>
+
+    <div class="hidden" id="show-result">
+        <p>Bøjningsform:</p>
+        <h2 id="inflected"></h2>
+        <p>Opslagsord:</p>
+        <h2 id="headword"></h2>
+        <p>Ordklasse: <span id="part-of-speech"></span></p>   
+        <p>Homografnr.: <span id="homografnr-span"></span></p>
+        <p>Id: <span id="id-span"></span></p>
+    </div>
+        
+    <script src="script.js"></script>
+</body>
+</html>
